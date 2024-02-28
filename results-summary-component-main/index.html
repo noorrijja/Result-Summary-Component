@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="result">
+        <p class="your-result">Your Result</p>
+        <div class="circle">
+          <p class="your-score">76</p>
+          <p class="total-score">of 100</p>
+        </div>
+        <p class="remarks-on-score">Great</p>
+        <p class="result-score-desc">
+          Great You scored higher than 65% of the people who have taken these
+          tests.
+        </p>
+      </div>
+      <div class="summary">
+        <p class="title">Summary</p>
+        <div class="items">
+          <div class="reaction item">
+            <div class="module">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="reaction icon"
+                class="reaction-icon"
+              />
+              <p>Reaction</p>
+            </div>
+            <div class="score">
+              <p><b>80 /</b> 100</p>
+            </div>
+          </div>
+          <div class="memory item">
+            <div class="module">
+              <img
+                src="./assets/images/icon-memory.svg"
+                alt="memory icon"
+                class="memory-icon"
+              />
+              <p>Memory</p>
+            </div>
+            <div class="score">
+              <p><b>92 /</b> 100</p>
+            </div>
+          </div>
+          <div class="verbal item">
+            <div class="module">
+              <img
+                src="./assets/images/icon-verbal.svg"
+                alt="verbal icon"
+                class="verbal-icon"
+              />
+              <p>Verbal</p>
+            </div>
+            <div class="score">
+              <p><b>61 /</b> 100</p>
+            </div>
+          </div>
+          <div class="visual item">
+            <div class="module">
+              <img
+                src="./assets/images/icon-visual.svg"
+                alt="visual icon"
+                class="visual-icon"
+              />
+              <p>Visual</p>
+            </div>
+            <div class="score">
+              <p><b>72 /</b> 100</p>
+            </div>
+          </div>
+          <button class="continue">Continue</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
